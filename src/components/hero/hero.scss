@@ -1,0 +1,52 @@
+.hero {
+  height: calc(100vh - 200px);
+  background: linear-gradient(180deg, #0d0d20, #121235);
+
+  .wrapper {
+    max-width: 1366px;
+    margin-top: 200px;
+    margin-left: 200px;
+
+    .text-container {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      h2 {
+        font-size: 30px;
+        color: rebeccapurple;
+        letter-spacing: 5px;
+      }
+
+      h1 {
+        font-size: 80px;
+      }
+
+      .buttons {
+        button {
+          padding: 20px;
+          border: 1px solid white;
+          border-radius: 10px;
+          background-color: transparent;
+          color: white;
+          margin-right: 20px;
+          cursor: pointer;
+        }
+      }
+
+      img {
+        width: 50px;
+      }
+    }
+  }
+
+  .sliding-text {
+    font-size: 50vh;
+    bottom: -75px;
+    position: absolute;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 75%;
+    font-weight: bold;
+  }
+}
