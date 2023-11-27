@@ -1,23 +1,23 @@
-.service {
+.projects {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 80vh;
   gap: 100px;
+
   h1 {
     color: #663399;
     font-size: 52px;
     font-weight: 500;
   }
 
-  .service-names {
+  .project-ideas {
     display: flex;
     gap: 20px;
     align-items: flex-start;
     justify-items: center;
 
-    h2 {
+    p {
       display: flex;
       justify-content: center;
       align-items: center;
