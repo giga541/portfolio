@@ -3,6 +3,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Hero from "./components/hero/Hero";
 import Services from "./components/services/Services";
 import Projects from "./components/projects/Projects";
+import Contact from "./contact/Contact";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <section id="Projects">
         <Projects />
       </section>
-      <section id="Contact">Contact</section>
+      <section id="Contact">
+        <Contact />
+      </section>
       <section id="About">About</section>
     </div>
   );

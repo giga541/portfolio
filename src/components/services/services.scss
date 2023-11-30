@@ -5,6 +5,8 @@
   flex-direction: column;
   height: 80vh;
   gap: 100px;
+  max-width: 1366px;
+
   h1 {
     color: #663399;
     font-size: 52px;
@@ -24,7 +26,8 @@
       color: #663399;
       font-weight: 500;
       box-shadow: 0 0 15px;
-      width: 140px;
+      width: 200px;
+      height: 150px;
       padding: 38px;
       border: 1px solid #663399;
       border-radius: 10px;
