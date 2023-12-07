@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .service {
   display: flex;
   justify-content: center;
@@ -6,6 +8,10 @@
   height: 80vh;
   gap: 100px;
   max-width: 1366px;
+
+  @include mobile {
+    width: 675px;
+  }
 
   h1 {
     color: #663399;
@@ -32,6 +38,12 @@
       border: 1px solid #663399;
       border-radius: 10px;
       font-size: 26px;
+
+      @include mobile {
+        width: min-content;
+        height: 100%;
+        padding: 28px;
+      }
     }
   }
 }
