@@ -22,13 +22,14 @@
       }
 
       .buttons {
-        button {
+        a {
           padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
           background-color: transparent;
           color: white;
           margin-right: 20px;
+          font-size: 13px;
           cursor: pointer;
         }
       }

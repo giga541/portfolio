@@ -18,10 +18,10 @@ function App() {
       <section id="Projects">
         <Projects />
       </section>
+      <section id="About">About</section>
       <section id="Contact">
         <Contact />
       </section>
-      <section id="About">About</section>
     </div>
   );
 }
