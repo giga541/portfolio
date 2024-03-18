@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import Header from "./Header";
 
 const textVariants = {
   initial: { x: -500, opacity: 0 },
@@ -25,6 +26,7 @@ const slidingVariants = {
 const Hero = () => {
   return (
     <div className="hero">
+      <Header />
       <div className="wrapper">
         <motion.div
           className="text-container"
