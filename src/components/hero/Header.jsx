@@ -1,5 +1,5 @@
-import "./header.scss";
-import { motion } from "framer-motion";
+import './header.scss';
+import { motion } from 'framer-motion';
 
 const variants = {
   initial: { x: -500, opacity: 0 },
@@ -11,7 +11,7 @@ const variants = {
 };
 
 const Header = () => {
-  const items = ["Homepage", "Services", "Projects", "About", "Contact"];
+  const items = ['Homepage', 'Services', 'Projects', 'Contact'];
 
   return (
     <motion.div
@@ -24,7 +24,7 @@ const Header = () => {
         Portfolio
       </motion.div>
       <motion.div className="items" variants={variants}>
-        {items.map(item => (
+        {items.map((item) => (
           <a href={`#${item}`} key={item}>
             {item}
           </a>
